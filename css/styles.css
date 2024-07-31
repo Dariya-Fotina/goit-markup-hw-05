@@ -614,9 +614,7 @@ fill: #fff;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    /*-display: flex;
-    align-items: center;
-    justify-content: center;-*/
+
 }
 
 .is-open {
