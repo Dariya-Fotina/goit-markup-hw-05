@@ -755,6 +755,13 @@ fill: #4D5AE5;
     fill: #f4f4fd;;
 }
 
+.policy {
+    line-height: 1.33333;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4d5ae5;
+}
+
 /*.input-cont:focus-within .modal-icon {
     fill: #4D5AE5;
 }
