@@ -426,7 +426,6 @@ font-family: "Roboto", sans-serif;
 .portfolio-text-animation {
     transform: translateY(0%);
     opacity: 1;
-   
 }
 
 .portfolio-list-item:hover {
@@ -458,10 +457,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         color:#434455;
         
 }
-/*----------- -----------*/
+/*------------ --------------*/
 
 
-/*--Footer--*/
+/*-----------Footer---------*/
 
 .footer {
     background-color: #2E2F42;
@@ -474,8 +473,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     max-width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
-    /*padding-top: 100px;
-    padding-bottom: 132px;*/
    }
 
 .footer-box {
@@ -552,6 +549,7 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-icon-link:hover,
 .footer-icon-link:focus {
     background-color: #31D0AA;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-soc {
@@ -600,8 +598,9 @@ fill: #fff;
 }
 
 
+/*------------------ -----------------*/
 
-/*----------- -----------*/
+
 
 /*----------Модальне вікно-------------*/
 
@@ -614,7 +613,6 @@ fill: #fff;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
 }
 
 .is-open {
@@ -648,7 +646,8 @@ display: block;
         }
 
 .close-button:hover {
-    background-color: #404BBF;
+background-color: #404BBF;
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -762,22 +761,4 @@ fill: #4D5AE5;
         color: #4d5ae5;
 }
 
-/*.input-cont:focus-within .modal-icon {
-    fill: #4D5AE5;
-}
-*/
-/*.modal-field:hover .modal-icon,
-.modal-field:focus-within .modal-icon {
-    fill:  #4d5ae5;
-}
-
-             /*--
-.form-label {
-font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.16667;
-letter-spacing: 0.04em;
-color: #8e8f99; }
-
-}
+/*------------------- ---------------------*/
