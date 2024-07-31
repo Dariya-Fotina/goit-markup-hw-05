@@ -564,6 +564,9 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         height: 80px;
 }
 
+.footer-form{
+gap: 24px;
+}
 
 .foter-one {
         width: 264px;
