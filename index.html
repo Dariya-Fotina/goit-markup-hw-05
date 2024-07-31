@@ -684,7 +684,7 @@
       </div>
     </footer>
     <!---------------Модальне вікно------------------->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button
           type="button"
@@ -767,35 +767,36 @@
           </div>
           <div class="modal-field">
             <label for="user-comments">Comment</label>
-            <input
-              type="text"
-              class="modal-input"
+            <textarea
               name="user-comments"
-              placeholder="Text input"
               id="user-comments"
-              autofocus
-            />
+              class="modal-comments"
+              placeholder="Text input"
+            ></textarea>
           </div>
-          <button type="submit">Send</button>
-        </form>
-        <!--
-        <div class="label-cont">
-          <label
-            class="form-label"
-            for="user-name"
-            >Name</label
+          <div class="modal-field">
+            <input type="checkbox" 
+            name="terms"
+             id="terms"
+            value="true"
+            class="modal-check visually-hidden"/>
+             <label for="terms" class="modal-check-text"><span class="yes">
+              <svg
+              class="vector"
+              width="10"
+              height="8">
+              <use href="./images/icons.svg#icon-vector"></use>
+             </svg>
+            </span>I accept the terms and conditions of the Privacy Policy</label>
+          </div>
+          <button
+            class="button-click"
+            type="button"
           >
-          <div class="input-cont">
-            <input
-              type="text"
-              name="user-name"
-              id="user-name"
-              class="form-input"
-              autofocus
-            />
-           
-          </div>
-        </div>-->
+            Send
+          </button>
+        </form>
+        </div>
       </div>
     </div>
   </body>
