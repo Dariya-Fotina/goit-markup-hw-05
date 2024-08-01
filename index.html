@@ -820,7 +820,7 @@
             <label for="user-comment">Comment</label>
             <textarea
               name="user-comment"
-              id="user-comments"
+              id="user-comment"
               class="modal-comment"
               placeholder="Text input"
             ></textarea>
@@ -828,13 +828,13 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              name="terms"
-              id="terms"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               class="modal-check visually-hidden"
             />
             <label
-              for="terms"
+              for="user-privacy"
               class="modal-check-text"
               ><span class="yes">
                 <svg
@@ -844,9 +844,12 @@
                 >
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg> </span
-              >I accept the terms and conditions of the
-              <span class="policy">Privacy Policy</span></label
-            >
+              >I accept the terms and conditions of the<a
+                class="privacy-policy"
+                href="./index.html"
+                >Privacy Policy</a
+              >
+            </label>
           </div>
           <button
             class="button-click modal-btn"
