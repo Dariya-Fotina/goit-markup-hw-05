@@ -742,7 +742,8 @@ fill: #ffffff;
 .input-cont {
     position: relative;
     outline: transparent;
-margin-bottom: 16px;  }
+margin-bottom: 16px;
+  }
 
 .modal-icon {
 fill: transparent;
@@ -787,7 +788,7 @@ fill: #4D5AE5;
 }
 
 .modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .modal-check-text {
@@ -816,6 +817,10 @@ fill: #4D5AE5;
     background-color: #404BBF;
     border: none;
     fill: #f4f4fd;
+}
+
+.modal-cont-comment {
+    margin-bottom: 16px;
 }
 
 .privacy-policy {
