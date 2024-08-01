@@ -791,6 +791,10 @@ fill: #4D5AE5;
     margin-bottom: 8px;
 }
 
+.checkbox-cont {
+   margin-bottom: 24px;
+}
+
 .modal-check-text {
         font-size: 12px;
         letter-spacing: 0.04em;
